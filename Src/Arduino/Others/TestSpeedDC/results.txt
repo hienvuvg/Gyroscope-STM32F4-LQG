@@ -1,0 +1,2 @@
+From 0 to max speed 5500 rmp in 350ms at ~12V.
+Tim rotor inertia (g/cm2) roi thay the K R L 
