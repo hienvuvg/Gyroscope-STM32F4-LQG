@@ -3,6 +3,10 @@ This is the code for control system of gyroscope based self-balancing system usi
 
 My folders only contain the source code and you can regenerate the whole programming files by running the ".ioc" files on STm32CubeMX. All of the peripheral setups can be found in the ".ioc" files. The code can be easily comprehenced by reading the user code sections in the "main.c", "main.h" and the interrupt file.
 
-I also upload another version of hardware in the Src folder which runs by arduino, and is placed in the Arduino folder. Please ignore those folder in the Src if you only want to work with STM32F4.
+I also upload another version of hardware in the Src folder which runs by arduino, and is placed in the Arduino folder. Please ignore those folder in the Src if you only want to work with STM32F4. 
+
+I did not use MPU6050 because of the strong vibration from the wheel when it rotates at high speed which makes MPU work unreliable. This can be overcome by either using potentiometer or having better mechanical customization for the system.
+
+The codes for testing of wheel speed, MPU6050s with Kalman filter, DC motor parameter estimation by arduino are also available, please checkt it out in the folder: /Src/Arduino/Others/
 
 A short demo is available at: https://youtu.be/-UsTLaPCEv8
