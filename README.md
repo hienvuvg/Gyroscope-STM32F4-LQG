@@ -5,7 +5,7 @@ My folders only contain the source code and you can regenerate the whole program
 
 I also upload another version of hardware in the Src folder which runs by arduino, and is placed in the Arduino folder. Please ignore those folder in the Src if you only want to work with STM32F4. 
 
-I did not use MPU6050 because of the strong vibration from the wheel when it rotates at high speed which makes MPU work unreliable. This can be overcome by either using potentiometer or having better mechanical customization for the system.
+I did not use MPU6050 because of the strong vibration from the wheel when it rotates at high speed which makes MPU work unreliably. This can be overcome by either using potentiometer or having better mechanical customization for the system.
 
 The codes for testing of wheel speed, MPU6050s with Kalman filter, DC motor parameter estimation by arduino are also available, please checkt it out in the folder: /Src/Arduino/Others/
 
